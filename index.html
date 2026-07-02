@@ -1,190 +1,207 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jesús Rojas Baena | Web-CV</title>
-
-  <meta name="description" content="Web-CV de Jesús Rojas Baena: perfil digital, inteligencia artificial, creación de contenidos y diseño web." />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <style>
-    :root{
-      --bg:#f5f5f5;
-      --text:#222;
-      --muted:#666;
-      --card:#ffffff;
-      --line:#e7e7e7;
-      --header:#111;
-      --icon:#ddd;
-      --shadow: 0 12px 34px rgba(0,0,0,.08);
-      --shadowHover: 0 16px 44px rgba(0,0,0,.10);
-      --radius: 14px;
-      --focus: 0 0 0 3px rgba(0,119,181,.28);
-    }
-
-    *{ box-sizing:border-box; }
-    html{ scroll-behavior: smooth; }
-
-    body{
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
-      line-height:1.65;
-    }
-
-    .container{ max-width:980px; margin:0 auto; padding:0 20px; }
-
-    header{
-      background:var(--header);
-      color:#fff;
-      text-align:center;
-      padding:28px 20px;
-    }
-
-    h1{ margin:10px 0 8px; }
-
-    header p{
-      max-width:760px;
-      margin:0 auto;
-      color:rgba(255,255,255,.9);
-    }
-
-    .profile-photo{ display:flex; justify-content:center; margin-bottom:14px; }
-    .profile-photo img{
-      width:132px; height:132px; border-radius:50%;
-      object-fit:cover; border:3px solid #fff;
-    }
-
-    .contact-icons{
-      display:flex; justify-content:center; gap:18px; margin-top:18px;
-    }
-    .contact-icons a{
-      width:48px; height:48px; display:flex;
-      align-items:center; justify-content:center;
-      border-radius:12px; color:var(--icon);
-      text-decoration:none;
-    }
-
-    main{ padding:26px 0; }
-
-    .grid{
-      display:grid; grid-template-columns:1fr; gap:18px;
-    }
-    @media(min-width:900px){
-      .grid{ grid-template-columns:1fr 1fr; }
-      .span-2{ grid-column:1/-1; }
-    }
-
-    .card{
-      background:var(--card);
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      padding:18px;
-    }
-
-    h2{ border-bottom:1px solid var(--line); padding-bottom:8px; }
-
-    ul{ list-style:none; padding:0; margin:0; }
-    li{ margin:8px 0; padding-left:16px; position:relative; }
-    li::before{ content:"•"; position:absolute; left:0; color:#888; }
-
-    footer{
-      text-align:center;
-      padding:18px;
-      font-size:.9rem;
-      color:var(--muted);
-    }
-
-    .subhead{
-      margin:14px 0 8px;
-      font-size:.9rem;
-      color:var(--muted);
-      text-transform:uppercase;
-      letter-spacing:.05em;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesús Rojas Baena — Consultor de IA, diseño web y branding para PYMEs en Granada</title>
+  <meta name="description" content="Consultor de IA, diseño web y branding para pequeños negocios en Granada. Veinticinco años aprendiendo oficios: el último es la inteligencia artificial.">
+  <meta property="og:title" content="Jesús Rojas Baena — Consultor de IA, web y branding">
+  <meta property="og:description" content="Consultoría de IA, diseño web y branding para PYMEs en Granada.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jesusrojasbaena.github.io/">
+  <meta property="og:image" content="https://jesusrojasbaena.github.io/assets/img/perfil/jesus.jpg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
 
-<header>
-  <div class="profile-photo">
-    <img src="/perfil.jpg" alt="Foto de Jesús Rojas Baena">
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">Jesús Rojas Baena</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menú</button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="proyectos/index.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
   </div>
-
-  <h1>Jesús Rojas Baena</h1>
-
-  <p>
-    Perfil digital con experiencia práctica en inteligencia artificial,
-    creación de contenidos y diseño web, con enfoque creativo y aprendizaje continuo.
-  </p>
-
-  <nav class="contact-icons">
-    <a href="https://wa.me/34656580388" target="_blank"><i class="fab fa-whatsapp"></i></a>
-    <a href="mailto:rojasjbcc@gmail.com"><i class="fas fa-envelope"></i></a>
-    <a href="https://www.linkedin.com/in/jesusrojasbaena/" target="_blank"><i class="fab fa-linkedin"></i></a>
-  </nav>
 </header>
 
-<main class="container">
-  <div class="grid">
+<main>
 
-    <section class="card">
-      <h2>Sobre mí</h2>
-      <p>
-        Profesional con perfil digital y creativo, con experiencia práctica en herramientas de
-        inteligencia artificial y entornos web.
-      </p>
-    </section>
+  <!-- ======== HERO ======== -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Consultoría · IA · Web · Branding</p>
+        <h1>Veinticinco años aprendiendo oficios. El último es la inteligencia artificial.</h1>
+        <p class="lead">Consultor de IA, diseño web y branding para pequeños negocios en Granada.</p>
+        <div class="btn-group">
+          <a class="btn btn-primary" href="proyectos/index.html">Ver proyectos</a>
+          <a class="btn btn-secondary" href="contacto.html">Hablemos</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="core-sample" aria-hidden="true">
+          <span class="c1"></span><span class="c2"></span><span class="c3"></span><span class="c4"></span>
+        </div>
+        <!-- Foto de perfil: colocar el archivo en assets/img/perfil/jesus.jpg -->
+        <img class="hero-photo" src="assets/img/perfil/jesus.jpg"
+             alt="Retrato profesional de Jesús Rojas Baena"
+             width="460" height="460"
+             onerror="this.style.display='none'">
+      </div>
+    </div>
+  </section>
 
-    <section class="card">
-      <h2>Habilidades e intereses digitales</h2>
-      <ul>
-        <li>Uso avanzado de herramientas de IA generativa</li>
-        <li>Diseño web básico y estructuración de páginas</li>
-        <li>Creación de contenidos digitales</li>
-        <li>Aprendizaje autónomo y adaptación tecnológica</li>
-      </ul>
-    </section>
+  <div class="strata" aria-hidden="true"></div>
 
-    <section class="card span-2">
-      <h2>Formación</h2>
+  <!-- ======== LO QUE HAGO ======== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Lo que hago</p>
+        <h2>IA aplicada a negocios reales, no a demos</h2>
+        <p class="muted">Trabajo con pequeños negocios que necesitan resultados concretos: una web que convierta, una marca que se recuerde, procesos que dejen de robar tiempo.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-accent" aria-hidden="true"></span>
+          <h3>Diseño y desarrollo web con IA</h3>
+          <p>Sitios completos, rápidos y publicados: de la primera idea al dominio en producción.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-accent" aria-hidden="true"></span>
+          <h3>Branding e identidad de marca</h3>
+          <p>Identidades que nacen de lo que el negocio ya es, no de una plantilla.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-accent" aria-hidden="true"></span>
+          <h3>Automatización y agentes IA</h3>
+          <p>Bots, flujos y agentes que quitan trabajo repetitivo de encima.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-accent" aria-hidden="true"></span>
+          <h3>Marketing digital y contenido con IA</h3>
+          <p>Contenido, imagen y estrategia generados con IA, con criterio humano.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-      <p style="color:var(--muted); margin-top:0;">
-        Formación académica oficial y formación complementaria, ordenadas cronológicamente.
-      </p>
+  <!-- ======== TRAYECTORIA (CAPAS) ======== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow eyebrow--blue">Trayectoria</p>
+        <h2>Cada oficio sostiene al siguiente</h2>
+        <p class="muted">Mi recorrido no es una lista de trabajos: es una acumulación de capas. Lo que aprendí en cada una sigue trabajando debajo de la actual.</p>
+      </div>
 
-      <h3 class="subhead">Formación académica</h3>
-      <ul>
-        <li><strong>Certificado de Profesionalidad ELES0208</strong> — Junta de Andalucía (380 h, noviembre 2021 – mayo 2022)</li>
-        <li><strong>Graduado Escolar (E.G.B.)</strong> — Ministerio de Educación y Ciencia (1976–1984, título expedido en 1985)</li>
-      </ul>
+      <div class="layers">
+        <div class="layer layer--now reveal">
+          <span class="layer-bar" aria-hidden="true"></span>
+          <div class="layer-body">
+            <span class="layer-era">2024 – hoy</span>
+            <h3>IA aplicada a negocio</h3>
+            <p>Certificación oficial de nivel 3 y tres proyectos reales en producción. La capa más reciente, construida sobre todas las demás.</p>
+          </div>
+        </div>
+        <div class="layer layer--tech reveal">
+          <span class="layer-bar" aria-hidden="true"></span>
+          <div class="layer-body">
+            <span class="layer-era">2021 – 2022</span>
+            <h3>Instalaciones eléctricas y energía solar</h3>
+            <p>Rigor técnico, normativa y proyectos de autoconsumo. Aquí aprendí que lo técnico, si no se explica bien, no se vende.</p>
+          </div>
+        </div>
+        <div class="layer reveal">
+          <span class="layer-bar" aria-hidden="true"></span>
+          <div class="layer-body">
+            <span class="layer-era">1999 – 2012</span>
+            <h3>Venta consultiva de tecnología</h3>
+            <p>Once años escuchando lo que el cliente necesita de verdad, no lo que dice el catálogo.</p>
+          </div>
+        </div>
+        <div class="layer reveal">
+          <span class="layer-bar" aria-hidden="true"></span>
+          <div class="layer-body">
+            <span class="layer-era">1993 – 1998</span>
+            <h3>Radio, comercial y publicidad</h3>
+            <p>La base de todo: comunicar con claridad y persuadir sin engañar.</p>
+          </div>
+        </div>
+      </div>
 
-      <h3 class="subhead">Formación complementaria</h3>
-      <ul>
-        <li><strong>Jornadas de Inteligencia Artificial y Automatización</strong> — BIG school (6 h, enero 2026)</li>
-        <li><strong>IA Heroes Pro – Formación avanzada en Inteligencia Artificial</strong> — Learning Heroes (1.080 h, febrero 2024 – marzo 2025)</li>
-        <li><strong>Herramientas digitales para el trabajo – Microsoft 365 (UF0319)</strong> — Avante Formación (45 h, abril 2025)</li>
-        <li><strong>Inteligencia Artificial en el puesto de trabajo (UC0319)</strong> — Avante Formación (30 h, marzo 2025)</li>
-        <li><strong>Herramientas Digitales: Microsoft 365</strong> — ATA (60 h, febrero–marzo 2025)</li>
-        <li><strong>Fundamentos de ChatGPT, Copilot, Google IA e IoT</strong> — Formación online (enero 2025)</li>
-        <li><strong>Atención al Cliente mediante TICs</strong> — FECE (40 h, abril–junio 2009)</li>
-        <li><strong>Financiación como herramienta comercial (UF0319)</strong> — Diasoft Formación (10 h, octubre–diciembre 2006)</li>
-        <li><strong>Aplicaciones Informáticas de Oficina</strong> — CGT / Junta de Andalucía (320 h, abril–julio 1998)</li>
-      </ul>
+      <p style="margin-top:1.5rem;"><a href="sobre-mi.html">Conocer mi historia completa →</a></p>
+    </div>
+  </section>
 
-    </section>
+  <!-- ======== PROYECTOS RECIENTES ======== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Proyectos recientes</p>
+        <h2>Trabajo real, en producción</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-thumb eifagas">
+            <img src="assets/img/proyectos/eifagas.jpg" alt="Captura de la página de inicio de eifagas.com" loading="lazy" width="640" height="360" onerror="this.remove()">
+            <strong>Eifagas</strong>
+          </div>
+          <div class="project-body">
+            <span class="project-sector">Climatización y fontanería</span>
+            <p>Rescaté la presencia digital de un negocio cuya web anterior fue inutilizada deliberadamente, y construí desde cero una identidad completa.</p>
+            <a class="project-link" href="proyectos/eifagas.html">Ver caso →</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb ferry">
+            <img src="assets/img/proyectos/taberna-ferry.jpg" alt="Captura de la página de inicio de Taberna Ferry" loading="lazy" width="640" height="360" onerror="this.remove()">
+            <strong>Taberna Ferry</strong>
+          </div>
+          <div class="project-body">
+            <span class="project-sector">Hostelería</span>
+            <p>Identidad de marca emocional para un negocio de barrio: cada momento del día tiene su propio ritual.</p>
+            <a class="project-link" href="proyectos/taberna-ferry.html">Ver caso →</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-thumb enrique">
+            <img src="assets/img/proyectos/peluqueria-enrique.jpg" alt="Captura de la página de inicio de Peluquería Enrique" loading="lazy" width="640" height="360" onerror="this.remove()">
+            <strong>Peluquería Enrique</strong>
+          </div>
+          <div class="project-body">
+            <span class="project-sector">Barbería tradicional</span>
+            <p>Una web que traduce veinte años de confianza de barrio en presencia digital y SEO local.</p>
+            <a class="project-link" href="proyectos/peluqueria-enrique.html">Ver caso →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-  </div>
 </main>
 
-<footer>
-  © 2026 · Web-CV personal
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Jesús Rojas Baena · Granada, España</p>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/jes%C3%BAs-rojas-baena-3abb9a54/" rel="noopener" target="_blank">LinkedIn</a></li>
+      <li><a href="mailto:rojasjbcc@gmail.com">Email</a></li>
+      <li><a href="https://wa.me/34656580388?text=Hola%20Jes%C3%BAs%2C%20me%20gustar%C3%ADa%20hablar%20sobre%20mi%20proyecto" rel="noopener" target="_blank">WhatsApp</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
 </footer>
 
+<script src="assets/js/main.js"></script>
 </body>
 </html>
