@@ -128,11 +128,11 @@ Formación intensiva y certificación oficial en IA aplicada a desarrollo web, m
 
 | Título | Código | Institución | Estado |
 |---|---|---|---|
-| Seguridad Informática — MF0490_3: Gestión de Servicios en el Sistema Informático ("Curso de Gestión de Servicios en el Sistema Informático") — Nivel 3 | ITCT0109 | Academia Teba, Granada | En curso — fin previsto 8 de julio de 2026 |
+| Seguridad Informática — MF0490_3: Gestión de Servicios en el Sistema Informático ("Curso de Gestión de Servicios en el Sistema Informático") — Nivel 3 | IFCT0109 | Academia Teba, Granada | En curso — fin previsto 8 de julio de 2026 |
 
 Contenido del IFCT0609 a destacar como bullets: ingeniería de prompt avanzada; generación de contenido multimedia con IA (imágenes, vídeo, música generativa); investigación de nichos de mercado para estrategia publicitaria; desarrollo web asistido por IA (HTML, CSS, GitHub Pages, publicación de proyectos reales).
 
-**Nota de verificación:** los códigos ELES0208, IFCT0609 e ITCT0109 pertenecen a familias profesionales distintas (Electricidad y Electrónica / Informática y Comunicaciones) y fueron confirmados por Jesús contra los documentos físicos de cada certificado. El nivel de ELES0208 (Nivel 1) está además verificado de forma independiente contra la ficha oficial del SEPE.
+**Nota de verificación:** los códigos ELES0208, IFCT0609 e IFCT0109 pertenecen a familias profesionales distintas (Electricidad y Electrónica / Informática y Comunicaciones) y fueron confirmados por Jesús contra los documentos físicos de cada certificado. El nivel de ELES0208 (Nivel 1) está además verificado de forma independiente contra la ficha oficial del SEPE.
 
 **Subsección "Herramientas que uso":** ChatGPT, Claude, Copilot, Midjourney, Canva, Figma, GitHub Pages, HTML/CSS, WordPress, n8n/Make, VS Code, Claude Code.
 

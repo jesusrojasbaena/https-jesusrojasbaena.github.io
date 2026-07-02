@@ -30,7 +30,7 @@ Sitio estático (HTML5, CSS3, JavaScript vanilla), sin build step ni dependencia
 1. ~~Foto de perfil~~ — hecho (`assets/img/perfil/jesus.jpg`, recortada a 600×600 y comprimida).
 2. ~~Capturas de proyectos~~ — hecho (`assets/img/proyectos/eifagas.jpg`, `taberna-ferry.jpg`, `peluqueria-enrique.jpg`: recortadas a la cabecera de cada sitio, 1200×675, comprimidas). Se usan tanto en las tarjetas de la página de Proyectos como en cada página de caso.
 3. ~~Formulario de contacto~~ — hecho, conectado a Formspree (`assets/js/main.js`, constante `FORM_ENDPOINT`).
-4. **Certificado ITCT0109 (Seguridad Informática):** finaliza el 8 de julio de 2026. Añadirlo a la tabla de formación de `sobre-mi.html` solo a partir de esa fecha.
+4. **Certificado IFCT0109 (Seguridad Informática — Gestión de Servicios en el Sistema Informático):** finaliza el 8 de julio de 2026. Añadirlo a la tabla de formación de `sobre-mi.html` solo a partir de esa fecha.
 
 ## Publicar
 
